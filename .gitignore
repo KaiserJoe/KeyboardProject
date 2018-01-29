@@ -1,0 +1,6 @@
+*.class
+bin/
+*.o
+*.d
+*.so
+*.a
