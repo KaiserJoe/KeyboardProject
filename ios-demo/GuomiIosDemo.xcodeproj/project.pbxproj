@@ -173,6 +173,7 @@
 		2DFEDC081D373D2D00F5D7B7 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		2DFEDC0A1D373DC200F5D7B7 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
 		2DFEDC0E1D376B1900F5D7B7 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		9F4FC50120206861001A4856 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -260,24 +261,9 @@
 		2DD189951C8FB30100E469AB = {
 			isa = PBXGroup;
 			children = (
-				2D72D83B1E1F709A00D59FE4 /* EBankIos.framework */,
-				2DFEDC0E1D376B1900F5D7B7 /* libc++.tbd */,
-				2DFEDC0A1D373DC200F5D7B7 /* OpenAL.framework */,
-				2DFEDC081D373D2D00F5D7B7 /* CoreAudio.framework */,
-				2DFEDC061D373CFD00F5D7B7 /* GameController.framework */,
-				2DFEDC041D373CEB00F5D7B7 /* MediaPlayer.framework */,
-				2D36F6A11D18E821009AEACD /* SystemConfiguration.framework */,
-				2D36F69F1D18E80F009AEACD /* MobileCoreServices.framework */,
-				2D36F69D1D18E7F7009AEACD /* Security.framework */,
-				2DB295E91D067DC600BE3BBB /* CoreLocation.framework */,
-				2DD189C31C8FBEA000E469AB /* AudioToolbox.framework */,
-				2DD189C11C8FBE8F00E469AB /* libz.tbd */,
-				2DD189BF1C8FBE8500E469AB /* libiconv.tbd */,
-				2DD189BD1C8FBE7900E469AB /* CoreMotion.framework */,
-				2DD189BB1C8FBE6D00E469AB /* CoreMedia.framework */,
-				2DD189B91C8FBE6300E469AB /* AVFoundation.framework */,
 				2DD189A01C8FB30100E469AB /* EBankIosDemo */,
 				2DD1899F1C8FB30100E469AB /* Products */,
+				9F4FC50020206861001A4856 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -355,6 +341,30 @@
 				2DD189E71C8FC16300E469AB /* SBJsonWriter.m */,
 			);
 			path = SBJson;
+			sourceTree = "<group>";
+		};
+		9F4FC50020206861001A4856 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D72D83B1E1F709A00D59FE4 /* EBankIos.framework */,
+				2DFEDC0E1D376B1900F5D7B7 /* libc++.tbd */,
+				2DFEDC0A1D373DC200F5D7B7 /* OpenAL.framework */,
+				2DFEDC081D373D2D00F5D7B7 /* CoreAudio.framework */,
+				2DFEDC061D373CFD00F5D7B7 /* GameController.framework */,
+				2DFEDC041D373CEB00F5D7B7 /* MediaPlayer.framework */,
+				2D36F6A11D18E821009AEACD /* SystemConfiguration.framework */,
+				2D36F69F1D18E80F009AEACD /* MobileCoreServices.framework */,
+				2D36F69D1D18E7F7009AEACD /* Security.framework */,
+				2DB295E91D067DC600BE3BBB /* CoreLocation.framework */,
+				2DD189C31C8FBEA000E469AB /* AudioToolbox.framework */,
+				2DD189C11C8FBE8F00E469AB /* libz.tbd */,
+				2DD189BF1C8FBE8500E469AB /* libiconv.tbd */,
+				2DD189BD1C8FBE7900E469AB /* CoreMotion.framework */,
+				2DD189BB1C8FBE6D00E469AB /* CoreMedia.framework */,
+				2DD189B91C8FBE6300E469AB /* AVFoundation.framework */,
+				9F4FC50120206861001A4856 /* Accelerate.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
