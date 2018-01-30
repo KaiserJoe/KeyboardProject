@@ -11,10 +11,10 @@ include $(PREBUILT_STATIC_LIBRARY)
 
 include $(CLEAR_VARS)
 
-#LOCAL_MODULE := cocos_crypto_static
-#LOCAL_MODULE_FILENAME := crypto
-#LOCAL_SRC_FILES := $(TARGET_ARCH_ABI)/libcrypto.a
-#include $(PREBUILT_STATIC_LIBRARY)
+LOCAL_MODULE := cocos_crypto_static
+LOCAL_MODULE_FILENAME := crypto
+LOCAL_SRC_FILES := $(TARGET_ARCH_ABI)/libcrypto.a
+include $(PREBUILT_STATIC_LIBRARY)
 
 LOCAL_MODULE := cocos_ssl_static
 LOCAL_MODULE_FILENAME := ssl

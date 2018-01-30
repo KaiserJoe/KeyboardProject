@@ -26,12 +26,12 @@ extern "C"
 
 	SoftKeyboard::SoftKeyboard():m_BgSize(Size::ZERO),m_SoftKeyboardBgSize(Size::ZERO),m_pBgPwdText(nullptr),m_pBgSoftKeyboardInput(nullptr),m_pBgScrow(nullptr),m_nTotalPwdCount(6),m_pCurPwdTextIndicate(nullptr),m_pSoftKeyboardDelete(nullptr),m_nWorkMode(0),m_pRefreshVerificationBtn(nullptr),m_pInputTimeImg(nullptr)
 	{
-		//LogUtil::NSLog("SoftKeyboard");
+		LogUtil::NSLog("SoftKeyboard");
 	}
 	
 	SoftKeyboard::~SoftKeyboard()
 	{
-		//LogUtil::NSLog("~SoftKeyboard");
+		LogUtil::NSLog("~SoftKeyboard");
 	}
 	
 	
@@ -79,55 +79,45 @@ extern "C"
         
 		m_pSoftKeyboardDelete = pSoftKeyboardDelete;
 		
-        LogUtil::NSLog("开始init");
 		//获取设计窗口大小
 		Size desiSize    = Director::getInstance()->getOpenGLView()->getVisibleSize();
-        LogUtil::NSLog("高:%f 宽:%f", desiSize.height, desiSize.width);
+        
 		//键盘窗口大小
 		m_BgSize = Size(desiSize .width, desiSize.height);
 		setContentSize(m_BgSize);
 		
-        //密码键盘背景
-        /*cocos2d::ui::ImageView * m_pBgSoftKeyboardInput = cocos2d::ui::ImageView::create("ebres/uis/sfk_06.png");
-        
-        m_pBgSoftKeyboardInput->setAnchorPoint(Vec2(0.0f, 0.0f));
-        m_pBgSoftKeyboardInput->setPosition(Vec2(0.0f, 0.0f));
-        this->addChild(m_pBgSoftKeyboardInput);*/
-        
-
-       
+    
 		//背景裁剪窗口
-		/*m_pBgScrow = ui::ScrollView::create();
+		m_pBgScrow = ui::ScrollView::create();
 		m_pBgScrow->setContentSize(m_BgSize);
 		m_pBgScrow->setPosition(cocos2d::Point(0.0f,0.0));
 		m_pBgScrow->setScrollBarWidth(4);
 		m_pBgScrow->setScrollBarPositionFromCorner(Vec2(2, 2));
 		m_pBgScrow->setScrollBarColor(Color3B::BLACK);
 		m_pBgScrow->setTouchEnabled(false);
-        addChild(m_pBgScrow);*/
-		LogUtil::NSLog("完成控件");
+        addChild(m_pBgScrow);
+		
 		//密码键盘背景
 		m_pBgSoftKeyboardInput = ImageView::create("ebres/uis/sfk_06.png");
 		m_SoftKeyboardBgSize = m_pBgSoftKeyboardInput->getContentSize();
 		m_pBgSoftKeyboardInput->setAnchorPoint(Vec2(0.0f, 0.0f));
 		m_pBgSoftKeyboardInput->setPosition(Vec2(0.0f, 0.0f));
-		this->addChild(m_pBgSoftKeyboardInput);
-		LogUtil::NSLog("完成控件");
+		m_pBgScrow->addChild(m_pBgSoftKeyboardInput);
+		
 		//密文密码背景
 		m_pBgPwdText = ImageView::create("ebres/uis/yanzhengma_03.png");
 		m_pBgPwdText->setAnchorPoint(Vec2(0.5f, 0.5f));
 		m_pBgPwdText->setPosition(Vec2(m_BgSize.width*0.5f, m_BgSize.height*0.62f));
-		this->addChild(m_pBgPwdText);
-		LogUtil::NSLog("完成控件");
+		m_pBgScrow->addChild(m_pBgPwdText);
+		
 
-		auto pTitle = Text::create("输入密码", font_default, font_normal_size);//30.0f->
+		Text* pTitle = Text::create("输入密码", font_default, font_normal_size);//30.0f->
 		pTitle->setAnchorPoint(Vec2(0.5f, 1.0f));
 		pTitle->setPosition(Vec2(m_pBgPwdText->getContentSize().width*0.5f, m_pBgPwdText->getContentSize().height*0.93f));
 		m_pBgPwdText->addChild(pTitle,1,1);
 		
-        LogUtil::NSLog("完成控件");
 		//键盘布局随机排布
-		//resetSoftKeyView(0);
+        resetSoftKeyView(0);
 		
 		return true;
 	}
@@ -189,8 +179,6 @@ extern "C"
             pSpriteTip->addClickEventListener(CC_CALLBACK_1(SoftKeyboard::onClickSoftKey,this));
         }
 		
-		        LogUtil::NSLog("布局1111111111111");
-		
         //第10个软键盘
         //数字键背景
         auto pSpriteTip   = Widget::create();
@@ -213,7 +201,6 @@ extern "C"
         
 		
 		
-		
         //退出键盘按钮
         auto pBackBtnBg = Widget::create();
         pBackBtnBg->setContentSize(Size(nTouchFlagDistanceX, nTouchFlagDistanceY));
@@ -231,7 +218,6 @@ extern "C"
         pBackBtnBg->addClickEventListener(CC_CALLBACK_1(SoftKeyboard::onClickSoftKeyBack,this));
 		
 		
-		LogUtil::NSLog("布局按钮完成");
 		
         //撤销键盘按钮
         auto pDeletBtnBg = Widget::create();
@@ -249,17 +235,10 @@ extern "C"
         pDeletBtnBg->setTouchEnabled(true);
         pDeletBtnBg->addClickEventListener(CC_CALLBACK_1(SoftKeyboard::onClickSoftKeyDelet,this));
         
-        LogUtil::NSLog("2222222222222");
-        
         //键盘布局弹出动画
-        //playKeyboardAppearAni();
-        
-        
+        playKeyboardAppearAni();
     }
-    
-	
 
-    
     void SoftKeyboard::onEnter()
     {
         Layer::onEnter();
@@ -283,8 +262,6 @@ extern "C"
     
     bool SoftKeyboard::onTouchBegan(cocos2d::Touch *touch, cocos2d::Event *unused_event)
     {
-        //LogUtil::NSLog("SoftKeyboard::onTouchBegan");
-        
         //本触摸区判断[m_bgSize区域]
         auto size                = this->getContentSize();
         auto anchorPointInPoints = this->getAnchorPoint();
@@ -333,8 +310,6 @@ extern "C"
 	 */
     void SoftKeyboard::playKeyboardAppearAni(void)
     {
-        LogUtil::NSLog("弹出1111111111111");
-        
         m_pBgSoftKeyboardInput->setPosition(cocos2d::Point(0.0f,0.0f));
         
         //背景弹出动画
@@ -472,7 +447,6 @@ extern "C"
             return;
         }
         
-//当前输入的明文
         std::string curPwd = StringUtils::format("%d",nPosDataIndex);
 		
         notifyKeyInput(curPwd.c_str());

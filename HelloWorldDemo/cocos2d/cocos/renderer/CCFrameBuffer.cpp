@@ -329,19 +329,6 @@ void FrameBuffer::clearAllFBOs()
         fbo->clearFBO();
     }
 }
-    
-void FrameBuffer::clearDefaultFBO() {
-        //OpenGL error 0x0502 in ..\renderer\CCFrameBuffer.cpp
-        //cocos2d::experimental::FrameBuffer::applyFBO 446
-        //#define COCOS2D_DEBUG 1
-        //CCLOG("FrameBuffer::clearDefaultFBO()-add by jamesliu modify for glerror");
-        //CCLOG("FrameBuffer::clearDefaultFBO()-defaultFBO::%p", _defaultFBO);
-        
-        if (_defaultFBO) {
-            _defaultFBO->release();
-            _defaultFBO = nullptr;
-        }
-}
 
 FrameBuffer* FrameBuffer::create(uint8_t fid, unsigned int width, unsigned int height)
 {
@@ -420,14 +407,6 @@ FrameBuffer::~FrameBuffer()
 #if CC_ENABLE_CACHE_TEXTURE_DATA
         Director::getInstance()->getEventDispatcher()->removeEventListener(_dirtyFBOListener);
 #endif
-    }
-    else
-    {
-        //add by jamesliu
-        //CCLOG("FrameBuffer::~FrameBuffer()::33");
-        glDeleteFramebuffers(1, &_fbo);
-        _fbo = 0;
-        _frameBuffers.erase(this);
     }
 }
 

@@ -23,17 +23,12 @@ public:
     
     // implement the "static create()" method manually
     CREATE_FUNC(KeyboardContr);
-    
-     //static KeyboardContr* initance();
-    
+
     void showKeyboard();
     
     void removeKeyboard();
     
 private:
-    
-
-    //static KeyboardContr* p;
     
 	/**
 	 ** SoftKeyboardDelete fun

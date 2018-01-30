@@ -1,23 +1,32 @@
-#include "AppDelegate.h"
+#include "MyAppDelegate.h"
 #include "KeyboardContr.h"
 #include "LogUtil.h"
 
 USING_NS_CC;
 
+//横版设计分辨率
+/*static cocos2d::Size designResolutionSize = cocos2d::Size(480, 320);
+static cocos2d::Size smallResolutionSize = cocos2d::Size(480, 320);
+static cocos2d::Size mediumResolutionSize = cocos2d::Size(1024, 768);
+static cocos2d::Size largeResolutionSize = cocos2d::Size(2048, 1536);*/
+
+//竖版分辨率设计
 static cocos2d::Size designResolutionSize = cocos2d::Size(640, 854);
 static cocos2d::Size smallResolutionSize = cocos2d::Size(320, 480);
 static cocos2d::Size mediumResolutionSize = cocos2d::Size(768, 1024);
 static cocos2d::Size largeResolutionSize = cocos2d::Size(1536, 2048);
 
-AppDelegate::AppDelegate(){
+MyAppDelegate::MyAppDelegate() {
+
 }
 
-AppDelegate::~AppDelegate(){
+MyAppDelegate::~MyAppDelegate()
+{
 }
 
 //if you want a different context,just modify the value of glContextAttrs
 //it will takes effect on all platforms
-void AppDelegate::initGLContextAttrs()
+void MyAppDelegate::initGLContextAttrs()
 {
     //set OpenGL context attributions,now can only set six attributions:
     //red,green,blue,alpha,depth,stencil
@@ -33,18 +42,19 @@ static int register_all_packages()
     return 0; //flag for packages manager
 }
 
-bool AppDelegate::applicationDidFinishLaunching() {
+bool MyAppDelegate::applicationDidFinishLaunching() {
     // initialize director
     auto director = Director::getInstance();
     auto glview = director->getOpenGLView();
     if(!glview) {
-#if (CC_TARGET_PLATFORM == CC_PLATFORM_WIN32)|| (CC_TARGET_PLATFORM == CC_PLATFORM_MAC) || (CC_TARGET_PLATFORM == CC_PLATFORM_LINUX)
-        glview = GLViewImpl::createWithRect("EBankQRCode", Rect(0, 0, designResolutionSize.width, designResolutionSize.height));
+#if (CC_TARGET_PLATFORM == CC_PLATFORM_WIN32) || (CC_TARGET_PLATFORM == CC_PLATFORM_MAC) || (CC_TARGET_PLATFORM == CC_PLATFORM_LINUX)
+        glview = GLViewImpl::createWithRect("SafeModule", Rect(0, 0, designResolutionSize.width, designResolutionSize.height));
 #else
-        glview = GLViewImpl::create("EBankQRCode");
+        glview = GLViewImpl::create("SafeModule");
 #endif
         director->setOpenGLView(glview);
     }
+
     // turn on display FPS
     director->setDisplayStats(false);
 
@@ -53,7 +63,8 @@ bool AppDelegate::applicationDidFinishLaunching() {
 
     // Set the design resolution
     glview->setDesignResolutionSize(designResolutionSize.width, designResolutionSize.height, ResolutionPolicy::FIXED_WIDTH);
-    /*Size frameSize = glview->getFrameSize();
+    
+   /* Size frameSize = glview->getFrameSize();
     // if the frame's height is larger than the height of medium size.
     if (frameSize.height > mediumResolutionSize.height)
     {        
@@ -70,22 +81,26 @@ bool AppDelegate::applicationDidFinishLaunching() {
         director->setContentScaleFactor(MIN(smallResolutionSize.height/designResolutionSize.height, smallResolutionSize.width/designResolutionSize.width));
     }*/
 
-    LogUtil::NSLog("***************applicationDidFinishLaunching***************");
-    
-    register_all_packages();
+    /*// create a scene. it's an autorelease object
+    auto scene = HelloWorld::createScene();
 
-    Director::getInstance()->setClearColor(cocos2d::Color4F(0,0,0,0));
+    // run
+    director->runWithScene(scene);*/
+
+    register_all_packages();
+    
+    //设置ClearColor
+    director->setClearColor(Color4F(0.0f, 0.0f, 0.0f, 0.0f));
     
     auto scene = KeyboardContr::createScene();
-    // run`
     director->runWithScene(scene);
-        
+	
+    LogUtil::NSLog("**********MyAppDelegate Start**********");
     return true;
 }
 
 // This function will be called when the app is inactive. When comes a phone call,it's be invoked too
-void AppDelegate::applicationDidEnterBackground() {
-    LogUtil::NSLog("***************applicationDidEnterBackground***************");
+void MyAppDelegate::applicationDidEnterBackground() {
     Director::getInstance()->stopAnimation();
 
     // if you use SimpleAudioEngine, it must be pause
@@ -93,8 +108,7 @@ void AppDelegate::applicationDidEnterBackground() {
 }
 
 // this function will be called when the app is active again
-void AppDelegate::applicationWillEnterForeground() {
-    LogUtil::NSLog("***************applicationWillEnterForeground***************");
+void MyAppDelegate::applicationWillEnterForeground() {
     Director::getInstance()->startAnimation();
 
     // if you use SimpleAudioEngine, it must resume here

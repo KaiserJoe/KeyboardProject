@@ -204,11 +204,6 @@ Director::~Director(void)
     Configuration::destroyInstance();
 
     s_SharedDirector = nullptr;
-    
-    //add by jamesliu modify glError
-    //OpenGL error 0x0502 in ..\renderer\CCFrameBuffer.cpp
-    //cocos2d::experimental::FrameBuffer::applyFBO 446
-    experimental::FrameBuffer::clearDefaultFBO();
 }
 
 void Director::setDefaultValues(void)
