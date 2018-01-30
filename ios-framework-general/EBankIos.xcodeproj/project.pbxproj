@@ -12,7 +12,6 @@
 		2D1A36201E15293C009BC856 /* MyAppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D1A352D1E15293B009BC856 /* MyAppDelegate.cpp */; };
 		2D1A36211E15293C009BC856 /* MyAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D1A352E1E15293B009BC856 /* MyAppDelegate.h */; };
 		2D1A36E11E152BB9009BC856 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D1A36E01E152BB9009BC856 /* libiconv.tbd */; };
-		2D1A36E31E152BFA009BC856 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D1A36E21E152BFA009BC856 /* CoreLocation.framework */; };
 		2D1A36E51E152C07009BC856 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D1A36E41E152C07009BC856 /* CoreMotion.framework */; };
 		2D1A96831E1E306A00F81D0E /* libcocos2diOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D1A35111E1528D6009BC856 /* libcocos2diOS.a */; };
 		9F4FC4E420205022001A4856 /* KeyboardContr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F4FC4DE20205022001A4856 /* KeyboardContr.cpp */; };
@@ -35,7 +34,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2D18360C1EF378BE00C9C84B /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 		2D1A34FA1E152466009BC856 /* EBankIos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EBankIos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D1A34FF1E152466009BC856 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D1A35091E152638009BC856 /* SDKEAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDKEAGLView.h; sourceTree = "<group>"; };
@@ -44,7 +42,6 @@
 		2D1A352D1E15293B009BC856 /* MyAppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MyAppDelegate.cpp; sourceTree = "<group>"; };
 		2D1A352E1E15293B009BC856 /* MyAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAppDelegate.h; sourceTree = "<group>"; };
 		2D1A36E01E152BB9009BC856 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
-		2D1A36E21E152BFA009BC856 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		2D1A36E41E152C07009BC856 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		2D1A36E61E152DC6009BC856 /* libpng.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpng.a; path = inlucde/cocos2d/external/png/prebuilt/ios/libpng.a; sourceTree = "<group>"; };
 		2D1A36E81E1532AB009BC856 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
@@ -86,7 +83,6 @@
 				9F4FC4EF20205B43001A4856 /* OpenGLES.framework in Frameworks */,
 				9F4FC4ED20205AF0001A4856 /* libpng.a in Frameworks */,
 				2D1A96831E1E306A00F81D0E /* libcocos2diOS.a in Frameworks */,
-				2D1A36E31E152BFA009BC856 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,15 +92,6 @@
 		2D1A34F01E152466009BC856 = {
 			isa = PBXGroup;
 			children = (
-				2D18360C1EF378BE00C9C84B /* LocalAuthentication.framework */,
-				2DB443451E611A6000FCC2A1 /* CoreTelephony.framework */,
-				2DB443431E611A3300FCC2A1 /* AVFoundation.framework */,
-				2D1A36E81E1532AB009BC856 /* libz.tbd */,
-				2D1A36E61E152DC6009BC856 /* libpng.a */,
-				2D1A36E41E152C07009BC856 /* CoreMotion.framework */,
-				2D1A36E21E152BFA009BC856 /* CoreLocation.framework */,
-				2D1A36E01E152BB9009BC856 /* libiconv.tbd */,
-				2D1A35111E1528D6009BC856 /* libcocos2diOS.a */,
 				2D1A34FC1E152466009BC856 /* EBankFramewrok */,
 				2D1A34FB1E152466009BC856 /* Products */,
 				9F4FC4EB20205AED001A4856 /* Frameworks */,
@@ -140,6 +127,13 @@
 		9F4FC4EB20205AED001A4856 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2DB443451E611A6000FCC2A1 /* CoreTelephony.framework */,
+				2DB443431E611A3300FCC2A1 /* AVFoundation.framework */,
+				2D1A36E81E1532AB009BC856 /* libz.tbd */,
+				2D1A36E61E152DC6009BC856 /* libpng.a */,
+				2D1A36E41E152C07009BC856 /* CoreMotion.framework */,
+				2D1A36E01E152BB9009BC856 /* libiconv.tbd */,
+				2D1A35111E1528D6009BC856 /* libcocos2diOS.a */,
 				9F4FC4FE20205BAA001A4856 /* AudioToolbox.framework */,
 				9F4FC4FB20205B99001A4856 /* OpenAL.framework */,
 				9F4FC4F920205B92001A4856 /* QuartzCore.framework */,
