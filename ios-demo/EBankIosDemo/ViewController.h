@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <EBankIos/SDKHelper.h>
+#import <EBankIos/SDKEAGLView.h>
 
 @interface ViewController : UIViewController <SDKHelper,UIAlertViewDelegate>
 

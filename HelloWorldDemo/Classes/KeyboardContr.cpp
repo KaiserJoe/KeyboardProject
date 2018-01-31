@@ -9,7 +9,7 @@ SoftKeyboard* m_pSoftKeyboard;
 
 extern "C"
 {
-    void notifyApp();
+    void notifyApp(const char*Json);
     
     void nativeSdkFuntion(){
 
@@ -96,7 +96,7 @@ void KeyboardContr::removeKeyboard()
     }
     this->removeFromParentAndCleanup(true);
     
-    notifyApp();
+    notifyApp("{\"code\": \"0000\",\"message\": \"操作完成\"}");
 }
 
 void KeyboardContr::menuCloseCallback(Ref* pSender)

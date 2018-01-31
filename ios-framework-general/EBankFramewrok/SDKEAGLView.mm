@@ -37,6 +37,8 @@ extern "C"
         //暂停[提高性能]
         [SDKEAGLView onPause];
         
+        [SDKEAGLView setHidden:true window:nil];
+        
         //通知app
         if(s_pSDKEAGLView != nullptr){
             [s_pSDKEAGLView.delegate notifyApp:pJson];
