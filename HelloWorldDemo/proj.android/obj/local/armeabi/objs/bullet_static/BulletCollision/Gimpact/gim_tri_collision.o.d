@@ -1,11 +1,11 @@
 obj/local/armeabi/objs/bullet_static/BulletCollision/Gimpact/gim_tri_collision.o: \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/bullet/BulletCollision/Gimpact/gim_tri_collision.cpp \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/bullet/BulletCollision/Gimpact/gim_tri_collision.h \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/bullet/BulletCollision/Gimpact/gim_box_collision.h \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/bullet/BulletCollision/Gimpact/gim_basic_geometry_operations.h \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/bullet/BulletCollision/Gimpact/gim_linear_math.h \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/bullet/BulletCollision/Gimpact/gim_math.h \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btScalar.h \
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/bullet/BulletCollision/Gimpact/gim_tri_collision.cpp \
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/bullet/BulletCollision/Gimpact/gim_tri_collision.h \
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/bullet/BulletCollision/Gimpact/gim_box_collision.h \
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/bullet/BulletCollision/Gimpact/gim_basic_geometry_operations.h \
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/bullet/BulletCollision/Gimpact/gim_linear_math.h \
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/bullet/BulletCollision/Gimpact/gim_math.h \
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btScalar.h \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/math.h \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs.h \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h \
@@ -36,29 +36,29 @@ obj/local/armeabi/objs/bullet_static/BulletCollision/Gimpact/gim_tri_collision.o
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/strings.h \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/memory.h \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/assert.h \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/bullet/BulletCollision/Gimpact/gim_geom_types.h \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btTransform.h \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btMatrix3x3.h \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btVector3.h \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btScalar.h \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btMinMax.h \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btAlignedAllocator.h \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btQuaternion.h \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btQuadWord.h \
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/bullet/BulletCollision/Gimpact/gim_geom_types.h \
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btTransform.h \
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btMatrix3x3.h \
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btVector3.h \
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btScalar.h \
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btMinMax.h \
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btAlignedAllocator.h \
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btQuaternion.h \
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btQuadWord.h \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdio.h \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/bullet/BulletCollision/Gimpact/gim_clip_polygon.h
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/bullet/BulletCollision/Gimpact/gim_clip_polygon.h
 
-/Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/bullet/BulletCollision/Gimpact/gim_tri_collision.h:
+/Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/bullet/BulletCollision/Gimpact/gim_tri_collision.h:
 
-/Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/bullet/BulletCollision/Gimpact/gim_box_collision.h:
+/Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/bullet/BulletCollision/Gimpact/gim_box_collision.h:
 
-/Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/bullet/BulletCollision/Gimpact/gim_basic_geometry_operations.h:
+/Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/bullet/BulletCollision/Gimpact/gim_basic_geometry_operations.h:
 
-/Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/bullet/BulletCollision/Gimpact/gim_linear_math.h:
+/Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/bullet/BulletCollision/Gimpact/gim_linear_math.h:
 
-/Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/bullet/BulletCollision/Gimpact/gim_math.h:
+/Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/bullet/BulletCollision/Gimpact/gim_math.h:
 
-/Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btScalar.h:
+/Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btScalar.h:
 
 /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/math.h:
 
@@ -120,24 +120,24 @@ obj/local/armeabi/objs/bullet_static/BulletCollision/Gimpact/gim_tri_collision.o
 
 /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/assert.h:
 
-/Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/bullet/BulletCollision/Gimpact/gim_geom_types.h:
+/Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/bullet/BulletCollision/Gimpact/gim_geom_types.h:
 
-/Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btTransform.h:
+/Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btTransform.h:
 
-/Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btMatrix3x3.h:
+/Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btMatrix3x3.h:
 
-/Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btVector3.h:
+/Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btVector3.h:
 
-/Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btScalar.h:
+/Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btScalar.h:
 
-/Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btMinMax.h:
+/Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btMinMax.h:
 
-/Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btAlignedAllocator.h:
+/Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btAlignedAllocator.h:
 
-/Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btQuaternion.h:
+/Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btQuaternion.h:
 
-/Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btQuadWord.h:
+/Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btQuadWord.h:
 
 /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdio.h:
 
-/Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/bullet/BulletCollision/Gimpact/gim_clip_polygon.h:
+/Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/bullet/BulletCollision/Gimpact/gim_clip_polygon.h:

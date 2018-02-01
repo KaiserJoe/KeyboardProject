@@ -1,7 +1,7 @@
 obj/local/armeabi/objs/cocos2dx_internal_static/__/external/unzip/ioapi.o: \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/cocos/./../external/unzip/ioapi.cpp \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/cocos/./../external/unzip/ioapi.h \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/cocos/./platform/CCPlatformConfig.h \
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/cocos/./../external/unzip/ioapi.cpp \
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/cocos/./../external/unzip/ioapi.h \
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/cocos/./platform/CCPlatformConfig.h \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdio.h \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs.h \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h \
@@ -24,8 +24,8 @@ obj/local/armeabi/objs/cocos2dx_internal_static/__/external/unzip/ioapi.o: \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/alloca.h \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/strings.h \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/memory.h \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/zlib/prebuilt/android/../../include/zlib.h \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/zlib/prebuilt/android/../../include/zconf.h \
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/zlib/prebuilt/android/../../include/zlib.h \
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/zlib/prebuilt/android/../../include/zconf.h \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/limits.h \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/limits.h \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/limits.h \
@@ -47,9 +47,9 @@ obj/local/armeabi/objs/cocos2dx_internal_static/__/external/unzip/ioapi.o: \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/capability.h \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/pathconf.h
 
-/Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/cocos/./../external/unzip/ioapi.h:
+/Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/cocos/./../external/unzip/ioapi.h:
 
-/Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/cocos/./platform/CCPlatformConfig.h:
+/Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/cocos/./platform/CCPlatformConfig.h:
 
 /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdio.h:
 
@@ -95,9 +95,9 @@ obj/local/armeabi/objs/cocos2dx_internal_static/__/external/unzip/ioapi.o: \
 
 /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/memory.h:
 
-/Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/zlib/prebuilt/android/../../include/zlib.h:
+/Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/zlib/prebuilt/android/../../include/zlib.h:
 
-/Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/zlib/prebuilt/android/../../include/zconf.h:
+/Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/zlib/prebuilt/android/../../include/zconf.h:
 
 /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/limits.h:
 

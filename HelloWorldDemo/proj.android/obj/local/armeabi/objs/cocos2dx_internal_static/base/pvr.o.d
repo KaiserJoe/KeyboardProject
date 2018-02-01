@@ -1,5 +1,5 @@
 obj/local/armeabi/objs/cocos2dx_internal_static/base/pvr.o: \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/cocos/./base/pvr.cpp \
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/cocos/./base/pvr.cpp \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdlib.h \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs.h \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h \
@@ -32,7 +32,7 @@ obj/local/armeabi/objs/cocos2dx_internal_static/base/pvr.o: \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/math.h \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/assert.h \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/include/cstdint \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/cocos/./base/pvr.h
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/cocos/./base/pvr.h
 
 /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdlib.h:
 
@@ -98,4 +98,4 @@ obj/local/armeabi/objs/cocos2dx_internal_static/base/pvr.o: \
 
 /Users/Kingpin/CocosDevelopment/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/include/cstdint:
 
-/Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/cocos/./base/pvr.h:
+/Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/cocos/./base/pvr.h:

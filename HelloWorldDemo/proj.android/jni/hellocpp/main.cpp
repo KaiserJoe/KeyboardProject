@@ -46,7 +46,7 @@ extern "C" {
     }
     
     
-    extern void nativeSdkFuntion(const char* szParam,int mode);
+    extern void nativeSdkFuntion();
     
     int checkEngineInitSuc(){
         auto pScen =cocos2d::Director::getInstance()->getRunningScene();
@@ -77,10 +77,8 @@ extern "C" {
      */
     
     JNIEXPORT jint JNICALL Java_com_bankeys_view_SDKHelper_nativeSdkFuntion(
-                                                                            JNIEnv *env, jobject thiz,jstring szParam,jint mode) {
-        const char *pValue = env->GetStringUTFChars(szParam, NULL);
-        nativeSdkFuntion(pValue,mode);
-        env->ReleaseStringUTFChars(szParam, pValue);
+                                                                            JNIEnv *env, jobject thiz,jstring) {
+        nativeSdkFuntion();
     }
     
     /*

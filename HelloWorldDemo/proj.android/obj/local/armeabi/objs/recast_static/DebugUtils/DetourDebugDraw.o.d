@@ -1,17 +1,17 @@
 obj/local/armeabi/objs/recast_static/DebugUtils/DetourDebugDraw.o: \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/recast/DebugUtils/DebugDraw.h \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/recast/DebugUtils/DetourDebugDraw.h \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/recast/../recast/Detour/DetourNavMesh.h \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/recast/../recast/Detour/DetourAlloc.h \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/recast/../recast/Detour/DetourStatus.h \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/recast/../recast/Detour/DetourNavMeshQuery.h \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/recast/../recast/Detour/DetourNavMesh.h \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/recast/../recast/DetourTileCache/DetourTileCacheBuilder.h \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/recast/../recast/Detour/DetourAlloc.h \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/recast/../recast/Detour/DetourStatus.h \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/recast/../recast/Detour/DetourCommon.h \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/recast/../recast/Detour/DetourMath.h \
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp \
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/recast/DebugUtils/DebugDraw.h \
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/recast/DebugUtils/DetourDebugDraw.h \
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/recast/../recast/Detour/DetourNavMesh.h \
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/recast/../recast/Detour/DetourAlloc.h \
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/recast/../recast/Detour/DetourStatus.h \
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/recast/../recast/Detour/DetourNavMeshQuery.h \
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/recast/../recast/Detour/DetourNavMesh.h \
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/recast/../recast/DetourTileCache/DetourTileCacheBuilder.h \
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/recast/../recast/Detour/DetourAlloc.h \
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/recast/../recast/Detour/DetourStatus.h \
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/recast/../recast/Detour/DetourCommon.h \
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/recast/../recast/Detour/DetourMath.h \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/math.h \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs.h \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h \
@@ -35,31 +35,31 @@ obj/local/armeabi/objs/recast_static/DebugUtils/DetourDebugDraw.o: \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/machine/limits.h \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/syslimits.h \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/page.h \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/recast/../recast/Detour/DetourNode.h
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/recast/../recast/Detour/DetourNode.h
 
-/Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/recast/DebugUtils/DebugDraw.h:
+/Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/recast/DebugUtils/DebugDraw.h:
 
-/Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/recast/DebugUtils/DetourDebugDraw.h:
+/Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/recast/DebugUtils/DetourDebugDraw.h:
 
-/Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/recast/../recast/Detour/DetourNavMesh.h:
+/Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/recast/../recast/Detour/DetourNavMesh.h:
 
-/Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/recast/../recast/Detour/DetourAlloc.h:
+/Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/recast/../recast/Detour/DetourAlloc.h:
 
-/Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/recast/../recast/Detour/DetourStatus.h:
+/Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/recast/../recast/Detour/DetourStatus.h:
 
-/Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/recast/../recast/Detour/DetourNavMeshQuery.h:
+/Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/recast/../recast/Detour/DetourNavMeshQuery.h:
 
-/Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/recast/../recast/Detour/DetourNavMesh.h:
+/Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/recast/../recast/Detour/DetourNavMesh.h:
 
-/Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/recast/../recast/DetourTileCache/DetourTileCacheBuilder.h:
+/Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/recast/../recast/DetourTileCache/DetourTileCacheBuilder.h:
 
-/Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/recast/../recast/Detour/DetourAlloc.h:
+/Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/recast/../recast/Detour/DetourAlloc.h:
 
-/Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/recast/../recast/Detour/DetourStatus.h:
+/Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/recast/../recast/Detour/DetourStatus.h:
 
-/Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/recast/../recast/Detour/DetourCommon.h:
+/Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/recast/../recast/Detour/DetourCommon.h:
 
-/Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/recast/../recast/Detour/DetourMath.h:
+/Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/recast/../recast/Detour/DetourMath.h:
 
 /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/math.h:
 
@@ -107,4 +107,4 @@ obj/local/armeabi/objs/recast_static/DebugUtils/DetourDebugDraw.o: \
 
 /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/page.h:
 
-/Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/recast/../recast/Detour/DetourNode.h:
+/Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/recast/../recast/Detour/DetourNode.h:

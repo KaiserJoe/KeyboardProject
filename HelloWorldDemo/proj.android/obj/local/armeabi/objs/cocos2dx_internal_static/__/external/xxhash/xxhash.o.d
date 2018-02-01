@@ -1,6 +1,6 @@
 obj/local/armeabi/objs/cocos2dx_internal_static/__/external/xxhash/xxhash.o: \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/cocos/./../external/xxhash/xxhash.c \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/cocos/./../external/xxhash/xxhash.h \
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/cocos/./../external/xxhash/xxhash.c \
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/cocos/./../external/xxhash/xxhash.h \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdlib.h \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs.h \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h \
@@ -24,7 +24,7 @@ obj/local/armeabi/objs/cocos2dx_internal_static/__/external/xxhash/xxhash.o: \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/sysmacros.h \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/memory.h
 
-/Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/cocos/./../external/xxhash/xxhash.h:
+/Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/cocos/./../external/xxhash/xxhash.h:
 
 /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdlib.h:
 

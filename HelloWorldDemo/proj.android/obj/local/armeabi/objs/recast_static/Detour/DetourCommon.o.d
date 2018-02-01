@@ -1,7 +1,7 @@
 obj/local/armeabi/objs/recast_static/Detour/DetourCommon.o: \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/recast/Detour/DetourCommon.cpp \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/recast/Detour/DetourCommon.h \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/recast/Detour/DetourMath.h \
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/recast/Detour/DetourCommon.cpp \
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/recast/Detour/DetourCommon.h \
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/recast/Detour/DetourMath.h \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/math.h \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs.h \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h \
@@ -26,9 +26,9 @@ obj/local/armeabi/objs/recast_static/Detour/DetourCommon.o: \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/syslimits.h \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/page.h
 
-/Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/recast/Detour/DetourCommon.h:
+/Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/recast/Detour/DetourCommon.h:
 
-/Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/recast/Detour/DetourMath.h:
+/Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/recast/Detour/DetourMath.h:
 
 /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/math.h:
 

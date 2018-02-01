@@ -1,15 +1,5 @@
 LOCAL_PATH := $(call my-dir)
 
-#########otherlibs########
-include $(CLEAR_VARS)
-
-LOCAL_MODULE := cocos_crypto_static      # name it whatever
-LOCAL_SRC_FILES := otherlibs/libcrypto.a
-
-include $(PREBUILT_STATIC_LIBRARY)
-
-################
-
 include $(CLEAR_VARS)
 
 $(call import-add-path,$(LOCAL_PATH)/../../cocos2d)
@@ -18,14 +8,11 @@ $(call import-add-path,$(LOCAL_PATH)/../../cocos2d/cocos)
 
 LOCAL_MODULE := cocos2dcpp_shared
 
+#so的名字
 LOCAL_MODULE_FILENAME := libEBankLib
 
-#LOCAL_SRC_FILES := hellocpp/main.cpp \
-#                   ../../Classes/AppDelegate.cpp \
-#                   ../../Classes/HelloWorldScene.cpp
 
-#LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../Classes
-
+#############替换原来包含式,变为遍历路径#################
 # 遍历目录及子目录的函数 
 define walk 
 $(wildcard $(1)) $(foreach e, $(wildcard $(1)/*), $(call walk, $(e))) 
@@ -42,13 +29,13 @@ LOCAL_SRC_FILES := $(FILE_LIST:$(LOCAL_PATH)/%=%)
 FILE_INCLUDES := $(shell find $(LOCAL_PATH)/../../Classes -type d) 
 LOCAL_C_INCLUDES := $(FILE_INCLUDES)
 
+##############################
+
 # _COCOS_HEADER_ANDROID_BEGIN
 # _COCOS_HEADER_ANDROID_END
 
 
 LOCAL_STATIC_LIBRARIES := cocos2dx_static
-LOCAL_STATIC_LIBRARIES += lssl
-LOCAL_STATIC_LIBRARIES += cocos_crypto_static
 
 # _COCOS_LIB_ANDROID_BEGIN
 # _COCOS_LIB_ANDROID_END

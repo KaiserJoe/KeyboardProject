@@ -1,14 +1,14 @@
 obj/local/armeabi/objs/cocos_flatbuffers_static/idl_parser.o: \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/flatbuffers/idl_parser.cpp \
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/flatbuffers/idl_parser.cpp \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/include/algorithm \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/flatbuffers/../flatbuffers/flatbuffers.h \
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/flatbuffers/../flatbuffers/flatbuffers.h \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/assert.h \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/include/cstddef \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/include/cstring \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/flatbuffers/../flatbuffers/idl.h \
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/flatbuffers/../flatbuffers/idl.h \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/include/map \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/include/memory \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/flatbuffers/../flatbuffers/util.h \
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/flatbuffers/../flatbuffers/util.h \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/include/fstream \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/include/iomanip \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/include/sstream \
@@ -20,7 +20,7 @@ obj/local/armeabi/objs/cocos_flatbuffers_static/idl_parser.o: \
 
 /Users/Kingpin/CocosDevelopment/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/include/algorithm:
 
-/Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/flatbuffers/../flatbuffers/flatbuffers.h:
+/Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/flatbuffers/../flatbuffers/flatbuffers.h:
 
 /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/assert.h:
 
@@ -28,13 +28,13 @@ obj/local/armeabi/objs/cocos_flatbuffers_static/idl_parser.o: \
 
 /Users/Kingpin/CocosDevelopment/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/include/cstring:
 
-/Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/flatbuffers/../flatbuffers/idl.h:
+/Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/flatbuffers/../flatbuffers/idl.h:
 
 /Users/Kingpin/CocosDevelopment/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/include/map:
 
 /Users/Kingpin/CocosDevelopment/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/include/memory:
 
-/Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/flatbuffers/../flatbuffers/util.h:
+/Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/flatbuffers/../flatbuffers/util.h:
 
 /Users/Kingpin/CocosDevelopment/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/include/fstream:
 

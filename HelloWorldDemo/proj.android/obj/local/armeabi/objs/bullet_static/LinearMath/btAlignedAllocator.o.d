@@ -1,7 +1,7 @@
 obj/local/armeabi/objs/bullet_static/LinearMath/btAlignedAllocator.o: \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/bullet/LinearMath/btAlignedAllocator.cpp \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/bullet/LinearMath/btAlignedAllocator.h \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/bullet/LinearMath/btScalar.h \
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/bullet/LinearMath/btAlignedAllocator.cpp \
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/bullet/LinearMath/btAlignedAllocator.h \
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/bullet/LinearMath/btScalar.h \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/math.h \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs.h \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h \
@@ -33,9 +33,9 @@ obj/local/armeabi/objs/bullet_static/LinearMath/btAlignedAllocator.o: \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/memory.h \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/assert.h
 
-/Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/bullet/LinearMath/btAlignedAllocator.h:
+/Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/bullet/LinearMath/btAlignedAllocator.h:
 
-/Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/bullet/LinearMath/btScalar.h:
+/Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/bullet/LinearMath/btScalar.h:
 
 /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/math.h:
 

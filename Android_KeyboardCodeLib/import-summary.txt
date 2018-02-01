@@ -1,0 +1,57 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .DS_Store
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:23.+
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => Keyboard_AndroidLib/src/main/AndroidManifest.xml
+* assets/ => Keyboard_AndroidLib/src/main/assets/
+* libs/BankeysFaceSdk.jar => Keyboard_AndroidLib/libs/BankeysFaceSdk.jar
+* libs/android-support-annotations.jar => Keyboard_AndroidLib/libs/android-support-annotations.jar
+* libs/cloudwalk_v1.2.0nokey.jar => Keyboard_AndroidLib/libs/cloudwalk_v1.2.0nokey.jar
+* libs/core-3.2.1.jar => Keyboard_AndroidLib/libs/core-3.2.1.jar
+* libs/httpmime-4.1.1.jar => Keyboard_AndroidLib/libs/httpmime-4.1.1.jar
+* res/ => Keyboard_AndroidLib/src/main/res/
+* src/ => Keyboard_AndroidLib/src/main/java/
+* src/.DS_Store => Keyboard_AndroidLib/src/main/resources/.DS_Store
+* src/com/.DS_Store => Keyboard_AndroidLib/src/main/resources/com/.DS_Store
+* src/com/bankeys/.DS_Store => Keyboard_AndroidLib/src/main/resources/com/bankeys/.DS_Store
+* src/com/enhance/gameservice/IGameTuningService.aidl => Keyboard_AndroidLib/src/main/aidl/com/enhance/gameservice/IGameTuningService.aidl
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

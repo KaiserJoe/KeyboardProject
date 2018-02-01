@@ -1,0 +1,52 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/Kingpin/StudioProjects/KeyboardCodeAndroidLib/Keyboard_AndroidLib/build/intermediates/res/merged/androidTest/debug/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Kingpin/StudioProjects/KeyboardCodeAndroidLib/Keyboard_AndroidLib/build/intermediates/bundles/debug/res/values/values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,20",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,94,136,180,228,267,307,357,417,478,531,588,879",
+                        "endLines": "2,3,4,5,6,7,8,9,10,11,12,19,22",
+                        "endColumns": "38,41,43,47,38,39,49,59,60,52,56,12,12",
+                        "endOffsets": "89,131,175,223,262,302,352,412,473,526,583,874,1034"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Kingpin/StudioProjects/KeyboardCodeAndroidLib/Keyboard_AndroidLib/build/intermediates/res/merged/androidTest/debug/values-v11_values-v11.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Kingpin/StudioProjects/KeyboardCodeAndroidLib/Keyboard_AndroidLib/build/intermediates/bundles/debug/res/values-v11/values-v11.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "187"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Kingpin/StudioProjects/KeyboardCodeAndroidLib/Keyboard_AndroidLib/build/intermediates/res/merged/androidTest/debug/values-v14_values-v14.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Kingpin/StudioProjects/KeyboardCodeAndroidLib/Keyboard_AndroidLib/build/intermediates/bundles/debug/res/values-v14/values-v14.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "201"
+                    }
+                }
+            ]
+        }
+    ]
+}

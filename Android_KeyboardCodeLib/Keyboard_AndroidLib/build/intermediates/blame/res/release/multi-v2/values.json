@@ -1,0 +1,120 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/Kingpin/StudioProjects/KeyboardCodeAndroidLib/Keyboard_AndroidLib/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/Kingpin/StudioProjects/KeyboardCodeAndroidLib/Keyboard_AndroidLib/src/main/res/values/color.xml",
+                    "from": {
+                        "startLines": "8,9,7,3,10,4,12,14,15,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "214,254,169,59,297,108,339,444,505,390",
+                        "endColumns": "38,41,43,47,38,39,49,59,60,52",
+                        "endOffsets": "248,291,208,102,331,143,384,499,561,438"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,94,136,180,228,267,307,357,417,478",
+                        "endColumns": "38,41,43,47,38,39,49,59,60,52",
+                        "endOffsets": "89,131,175,223,262,302,352,412,473,526"
+                    }
+                },
+                {
+                    "source": "/Users/Kingpin/StudioProjects/KeyboardCodeAndroidLib/Keyboard_AndroidLib/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "6,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "186,510",
+                        "endLines": "12,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "472,665"
+                    },
+                    "to": {
+                        "startLines": "13,20",
+                        "startColumns": "4,4",
+                        "startOffsets": "588,879",
+                        "endLines": "19,22",
+                        "endColumns": "12,12",
+                        "endOffsets": "874,1034"
+                    }
+                },
+                {
+                    "source": "/Users/Kingpin/StudioProjects/KeyboardCodeAndroidLib/Keyboard_AndroidLib/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endColumns": "56",
+                        "endOffsets": "69"
+                    },
+                    "to": {
+                        "startLines": "12",
+                        "startColumns": "4",
+                        "startOffsets": "531",
+                        "endColumns": "56",
+                        "endOffsets": "583"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Kingpin/StudioProjects/KeyboardCodeAndroidLib/Keyboard_AndroidLib/build/intermediates/res/merged/release/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/Kingpin/StudioProjects/KeyboardCodeAndroidLib/Keyboard_AndroidLib/src/main/res/values/color.xml",
+                    "from": {
+                        "startLines": "8,9,7,3,10,4,12,14,15,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "214,254,169,59,297,108,339,444,505,390",
+                        "endColumns": "38,41,43,47,38,39,49,59,60,52",
+                        "endOffsets": "248,291,208,102,331,143,384,499,561,438"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,94,136,180,228,267,307,357,417,478",
+                        "endColumns": "38,41,43,47,38,39,49,59,60,52",
+                        "endOffsets": "89,131,175,223,262,302,352,412,473,526"
+                    }
+                },
+                {
+                    "source": "/Users/Kingpin/StudioProjects/KeyboardCodeAndroidLib/Keyboard_AndroidLib/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "6,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "186,510",
+                        "endLines": "12,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "472,665"
+                    },
+                    "to": {
+                        "startLines": "13,20",
+                        "startColumns": "4,4",
+                        "startOffsets": "588,879",
+                        "endLines": "19,22",
+                        "endColumns": "12,12",
+                        "endOffsets": "874,1034"
+                    }
+                },
+                {
+                    "source": "/Users/Kingpin/StudioProjects/KeyboardCodeAndroidLib/Keyboard_AndroidLib/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endColumns": "56",
+                        "endOffsets": "69"
+                    },
+                    "to": {
+                        "startLines": "12",
+                        "startColumns": "4",
+                        "startOffsets": "531",
+                        "endColumns": "56",
+                        "endOffsets": "583"
+                    }
+                }
+            ]
+        }
+    ]
+}

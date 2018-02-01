@@ -1,6 +1,6 @@
 obj/local/armeabi/objs/bullet_static/BulletDynamics/MLCPSolvers/btDantzigLCP.o: \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/bullet/BulletDynamics/MLCPSolvers/btDantzigLCP.cpp \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/bullet/BulletDynamics/MLCPSolvers/btDantzigLCP.h \
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/bullet/BulletDynamics/MLCPSolvers/btDantzigLCP.cpp \
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/bullet/BulletDynamics/MLCPSolvers/btDantzigLCP.h \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdlib.h \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs.h \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h \
@@ -24,7 +24,7 @@ obj/local/armeabi/objs/bullet_static/BulletDynamics/MLCPSolvers/btDantzigLCP.o: 
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/memory.h \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdio.h \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/assert.h \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btScalar.h \
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btScalar.h \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/math.h \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/limits.h \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/limits.h \
@@ -33,12 +33,12 @@ obj/local/armeabi/objs/bullet_static/BulletDynamics/MLCPSolvers/btDantzigLCP.o: 
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/machine/limits.h \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/syslimits.h \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/page.h \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btAlignedObjectArray.h \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btScalar.h \
- /Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btAlignedAllocator.h \
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btAlignedObjectArray.h \
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btScalar.h \
+ /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btAlignedAllocator.h \
  /Users/Kingpin/CocosDevelopment/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/include/new
 
-/Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/bullet/BulletDynamics/MLCPSolvers/btDantzigLCP.h:
+/Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/bullet/BulletDynamics/MLCPSolvers/btDantzigLCP.h:
 
 /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdlib.h:
 
@@ -86,7 +86,7 @@ obj/local/armeabi/objs/bullet_static/BulletDynamics/MLCPSolvers/btDantzigLCP.o: 
 
 /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/assert.h:
 
-/Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btScalar.h:
+/Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btScalar.h:
 
 /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/math.h:
 
@@ -104,10 +104,10 @@ obj/local/armeabi/objs/bullet_static/BulletDynamics/MLCPSolvers/btDantzigLCP.o: 
 
 /Users/Kingpin/CocosDevelopment/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/page.h:
 
-/Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btAlignedObjectArray.h:
+/Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btAlignedObjectArray.h:
 
-/Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btScalar.h:
+/Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btScalar.h:
 
-/Users/Kingpin/Desktop/HelloWorldDemo/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btAlignedAllocator.h:
+/Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/HelloWorldDemo/proj.android/../cocos2d/external/bullet/../bullet/LinearMath/btAlignedAllocator.h:
 
 /Users/Kingpin/CocosDevelopment/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/include/new:

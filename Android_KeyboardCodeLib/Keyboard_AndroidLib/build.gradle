@@ -1,0 +1,41 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "26.0.2"
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 23
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+
+
+    lintOptions {
+        abortOnError false
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:23.+'
+    compile files('libs/android-support-annotations.jar')
+}
+
+//打jar包
+def SDK_BASENAME = "libEBankLib";
+def sdkJarPath = "build";
+def zipFile = file('build/intermediates/bundles/debug/classes.jar')
+
+task makeJar(type: Jar) {
+    from zipTree(zipFile)
+    from fileTree(dir: 'src/main', includes: ['assets/**'])
+    baseName = SDK_BASENAME
+    destinationDir = file(sdkJarPath)
+}
+makeJar.dependsOn(build)

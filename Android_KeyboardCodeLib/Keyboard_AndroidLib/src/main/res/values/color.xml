@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="finder_mask">#60000000</color>
+    <color name="rea">#ffff0000</color>
+
+    <!-- 活体认证-->
+    <color name="common_bg">#f0eff4</color>
+    <color name="blue">#059cd4</color>
+    <color name="blue1">#66059cd4</color>
+    <color name="gray">#f8f8f8</color>
+
+    <drawable name="common_bg">#f0eff4</drawable>
+    <drawable name="red_alpha_30">#8d171e</drawable>
+    <drawable name="login_regist_normal">#DB4630</drawable>
+    <drawable name="login_regist_pressed">#D78E87</drawable>
+</resources>
