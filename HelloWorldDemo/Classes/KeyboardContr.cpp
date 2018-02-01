@@ -74,7 +74,7 @@ void KeyboardContr::_onSoftKeyboardDidBegin(void)
 	
 }
 /**
- ** 键盘回传密码数据
+ ** 键盘输入完成
  **/
  void KeyboardContr::_onSoftKeyboardInputDidRenturn(bool suc)
 {

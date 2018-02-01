@@ -23,14 +23,12 @@ extern "C" {
     void notifyApp(const char* pSignedMsg){
         JniMethodInfo t;
         if (JniHelper::getStaticMethodInfo(t, "com/bankeys/view/SDKHelper", "notifyApp",
-                                           "()V")) {
+                                           "(Ljava/lang/String;)V")) {
             jstring jValue = t.env->NewStringUTF(pSignedMsg);
             t.env->CallStaticVoidMethod(t.classID, t.methodID,jValue);
             t.env->DeleteLocalRef(jValue);
             t.env->DeleteLocalRef(t.classID);
         }
-        
-        delete pSignedMsg;
     }
     
     

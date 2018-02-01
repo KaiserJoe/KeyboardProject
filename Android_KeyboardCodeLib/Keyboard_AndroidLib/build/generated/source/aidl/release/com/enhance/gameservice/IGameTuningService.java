@@ -1,6 +1,6 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
- * Original file: /Users/Kingpin/StudioProjects/KeyboardCodeAndroidLib/Keyboard_AndroidLib/src/main/aidl/com/enhance/gameservice/IGameTuningService.aidl
+ * Original file: /Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/Android_KeyboardCodeLib/Keyboard_AndroidLib/src/main/aidl/com/enhance/gameservice/IGameTuningService.aidl
  */
 package com.enhance.gameservice;
 public interface IGameTuningService extends android.os.IInterface

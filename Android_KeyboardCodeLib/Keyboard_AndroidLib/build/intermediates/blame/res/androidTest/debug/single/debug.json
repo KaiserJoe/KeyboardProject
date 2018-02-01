@@ -2,5 +2,9 @@
     {
         "merged": "/Users/Kingpin/StudioProjects/KeyboardCodeAndroidLib/Keyboard_AndroidLib/build/intermediates/res/merged/androidTest/debug/layout_myqrview.xml.flat",
         "source": "/Users/Kingpin/StudioProjects/KeyboardCodeAndroidLib/Keyboard_AndroidLib/build/intermediates/bundles/debug/res/layout/myqrview.xml"
+    },
+    {
+        "merged": "/Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/Android_KeyboardCodeLib/Keyboard_AndroidLib/build/intermediates/res/merged/androidTest/debug/layout_myqrview.xml.flat",
+        "source": "/Users/Kingpin/Desktop/WorkSpace/GItSpace/PriteProject/KeyboardProject/Android_KeyboardCodeLib/Keyboard_AndroidLib/build/intermediates/bundles/debug/res/layout/myqrview.xml"
     }
 ]

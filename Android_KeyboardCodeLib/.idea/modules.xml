@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/KeyboardCodeAndroidLib.iml" filepath="$PROJECT_DIR$/KeyboardCodeAndroidLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Android_KeyboardCodeLib.iml" filepath="$PROJECT_DIR$/Android_KeyboardCodeLib.iml" />
       <module fileurl="file://$PROJECT_DIR$/Keyboard_AndroidLib/Keyboard_AndroidLib.iml" filepath="$PROJECT_DIR$/Keyboard_AndroidLib/Keyboard_AndroidLib.iml" />
     </modules>
   </component>

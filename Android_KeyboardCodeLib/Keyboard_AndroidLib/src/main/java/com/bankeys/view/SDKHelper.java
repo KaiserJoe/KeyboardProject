@@ -79,13 +79,15 @@ public class SDKHelper {
         LogUtil.D(SDKData.TAG, "setSDKActivity-_activity::" + _activity);
         mInstance.mSDKActivity = _activity;
     }
+    public void setOnSDKListener(OnSDKListener _mCompleteListener) {
+        mOnSDKListener = _mCompleteListener;
+    }
 
 
     /**
      * * SDK/c++调用APP方法
      **/
     private static void notifyApp(String szJson) {
-
         // 结束SDKAppActivity
         Message msg = new Message();
         msg.what = 0;
@@ -95,10 +97,8 @@ public class SDKHelper {
         mSDKHandler.sendMessage(msg);
     }
 
-
-    private static final String TAG = "SDKHelper";
     private static void notifyKeyInput(String result) {
-        Log.e(TAG, "notifyKeyInput: " + result);
+        mOnSDKListener.notifyKeyInput(result);
     }
 
 
