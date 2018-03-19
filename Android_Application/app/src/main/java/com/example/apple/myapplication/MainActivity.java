@@ -8,8 +8,8 @@ import android.view.View;
 import android.widget.Button;
 
 import com.bankeys.common.LogUtil;
-import com.bankeys.view.OnSDKListener;
 import com.bankeys.view.SDKAppActivity;
+import com.bankeys.view.OnSDKListener;
 import com.bankeys.view.SDKHelper;
 
 import org.json.JSONException;
@@ -26,7 +26,6 @@ public class MainActivity extends AppCompatActivity implements OnSDKListener {
 
         SDKHelper m_SDKHelper = new SDKHelper(MainActivity.this);
         m_SDKHelper.setOnSDKListener(this);
-
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -40,10 +39,10 @@ public class MainActivity extends AppCompatActivity implements OnSDKListener {
         });
     }
 
-
     private static final String TAG = "MainActivity";
+
     @Override
     public void notifyKeyInput(String s) {
-        Log.e(TAG, "notifyKeyInput:"+s );
+        Log.e(TAG, "notifyKeyInput:" + s);
     }
 }

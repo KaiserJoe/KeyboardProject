@@ -63,7 +63,7 @@ static SDKEAGLView * s_pSDKEaglView ;
     
     
     //服务器数据回显
-    CGFloat posY = 20;//mainScreenBounds.size.height-80.0f;
+    CGFloat posY = mainScreenBounds.size.height-80.0f;
     UILabel* echoLabel = [[UILabel alloc]initWithFrame:CGRectMake(20.0, posY, mainScreenBounds.size.width, 50.0)];
     echoLabel.text = @"服务器数据回显";
     //设置字体:粗体，正常的是 SystemFontOfSize
@@ -72,7 +72,7 @@ static SDKEAGLView * s_pSDKEaglView ;
     echoLabel.textColor = [UIColor redColor];
     //设置文字位置
     echoLabel.textAlignment = NSTextAlignmentLeft;
-    [self.view addSubview:echoLabel];
+//    [self.view addSubview:echoLabel];
     [self showScrowText:@"..."];
        
     //添加版本号
